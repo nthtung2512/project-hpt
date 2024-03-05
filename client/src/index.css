@@ -1,0 +1,24 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --bg: #F0F3F5;
+  --bg_blue: #005CB9;
+  --bg_darkblue: #1D479A;
+  --text: white;
+  --text_black: black;
+  --text_soft: #5B5B5B;
+  --btn: #0073FA;
+  --btn_soft: rgba(0, 115, 250, 0.7);
+  --btn_remove: #C90303;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden; 
+}
+

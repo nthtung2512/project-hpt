@@ -1,0 +1,17 @@
+.medication {
+    margin-bottom: 25px;
+}
+
+.searchBar {
+    display: flex;
+    column-gap: 25px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}

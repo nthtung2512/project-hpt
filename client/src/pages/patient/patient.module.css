@@ -1,0 +1,18 @@
+.patient {
+    margin-bottom: 25px;
+}
+
+.searchBar {
+    display: flex;
+    column-gap: 25px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}

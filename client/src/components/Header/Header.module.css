@@ -1,0 +1,101 @@
+.desktop_header {
+    background-color: var(--bg);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    align-items: center;
+    font-size: 1em;
+    position: relative; /* Add position relative */
+    z-index: 1; /* Add z-index to position the header above the content */
+    box-shadow: 2px 4px 6px rgba(0,0,0,0.2);
+}
+
+.desktop_header p {
+    font-weight: bold ;
+}
+
+.logo_link {
+    text-decoration: none;
+}
+
+.logo_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 20px
+}
+
+.logo {
+    color: var(--bg_blue);
+    font-weight: bold;
+}
+
+.btn_profile {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: none;
+    margin-right: 30px;
+}
+
+
+.profile_icon {
+    padding: 10px 15px;
+    border-radius: 50%;
+    background-color: var(--bg_blue);
+    color: white;
+}
+
+.mobile_header {
+    display: none;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.dropdown {
+    position: fixed;
+    top: 65px;
+    left: 0;
+    padding: 0 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--bg);
+    border-radius: 0 0 10px 0;
+    z-index: 1000;
+}
+
+.dropdown_item {
+    text-decoration: none;
+    color: var(--text_black);
+}
+
+.dropdown_item:hover{
+    color: var(--bg_blue);
+}
+
+@media (max-width: 768px) {
+    .desktop_header {
+        display: none;
+    }
+
+    .mobile_header {
+        background-color: var(--bg);
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px 20px;
+        align-items: center;
+        font-size: 1em;
+        box-shadow: 2px 4px 6px rgba(0,0,0,0.2);
+        
+    }
+}
+
+
+

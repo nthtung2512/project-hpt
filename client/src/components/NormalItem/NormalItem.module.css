@@ -1,0 +1,31 @@
+.normalItem {
+    display: flex;
+    background-color: var(--text);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    width: 95%;
+}
+
+.element {
+    margin-right: 60px;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+
+.content {
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.btnPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px
+}
