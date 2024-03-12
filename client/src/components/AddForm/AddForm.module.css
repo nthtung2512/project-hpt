@@ -1,0 +1,93 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 999; 
+}
+  
+.addForm {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: var(--text);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 25px;
+    position: fixed;
+    top: 50px; /* Remove the top positioning */
+    bottom: auto; /* Align the form to the bottom */
+    left: 30%; 
+    z-index: 1000; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.addForm p {
+    font-size: 1em;
+
+}
+
+.item {
+    display: flex;
+    gap: 20px;
+    align-items: center
+}
+
+.item p {
+    flex-grow: 1;
+
+}
+
+.multipleItem {
+    display: flex;
+    align-items: center;
+}
+
+.iconDate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.iconDate p {
+    margin-left: 5px;
+}
+
+.calendarButton {
+    border: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg_blue);
+    color: var(--text);
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+}
+
+.multiple {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}

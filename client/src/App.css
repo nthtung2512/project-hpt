@@ -1,0 +1,37 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;   
+  /* border: 1px solid red; */
+}
+
+.mainContent {
+  display: flex;
+  overflow-x: hidden; 
+  /* border: 1px solid red; */
+}
+
+.navbarContent {
+  display: flex;
+  padding: 20px 20px 20px 40px;
+  flex-direction: column;
+  min-height: calc(100vh - 65px);
+  background-color: var(--bg);
+  flex-grow: 1;
+  margin-left: 250px;
+  padding-top: 30px;
+}
+
+.noNavbarContent {
+  display: flex;
+  padding: 20px 20px 20px 40px;
+  flex-direction: column;
+  min-height: calc(100vh - 65px);
+  background-color: var(--bg);
+  flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+    .navbarContent{
+      margin-left: 0;
+    }
+}

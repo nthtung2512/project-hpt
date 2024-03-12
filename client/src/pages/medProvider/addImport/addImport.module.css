@@ -1,0 +1,41 @@
+.addImport {
+    margin-bottom: 25px;
+}
+
+.searchBar {
+    display: flex;
+    column-gap: 25px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.header {
+    display: flex;
+    height: 45px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    flex: 1
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.import {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}

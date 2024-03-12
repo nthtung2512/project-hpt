@@ -1,0 +1,11 @@
+export { default as Home} from "./home";
+export { default as Login} from "./login";
+export { default as Patient} from "./patient";
+export { default as Nurse} from "./nurse";
+export { default as MedProvider} from "./medProvider";
+export { default as Medication} from "./medication";
+export { default as Doctor} from "./doctor";
+export { default as Auth} from "./auth";
+export { default as Department} from "./department";
+export { default as PatientDetail} from "./patient/patientDetail";
+export { default as AddImport} from "./medProvider/addImport";
