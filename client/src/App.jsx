@@ -102,7 +102,7 @@ function App() {
   //         </Alert>
   //       </Snackbar> */}
   //     </div>
-  const [isLoggedIn, setIsLoggedIn] = useState(true);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [showNavbar, setShowNavbar] = useState(false);
   const [authentication, setAuthentication] = useState("");
   // authentication: RECEPTIONIST, IPDOCTOR, OPDOCTOR, NURSE, ADMINISTRATOR
